@@ -18,8 +18,10 @@ namespace Mapstest.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+            Xamarin.FormsMaps.Init(this, bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
             LoadApplication(new App());
         }
     }

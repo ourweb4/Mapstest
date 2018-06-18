@@ -11,7 +11,7 @@ namespace Mapstest
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new MinPage1();
 		}
 
 		protected override void OnStart ()
